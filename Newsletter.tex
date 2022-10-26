@@ -1,43 +1,138 @@
-\documentclass[12pt,letterpaper]{article}
-\usepackage[letterpaper,margin=0.8in]{geometry}
-\usepackage{graphicx}
-\usepackage{mdwlist}
-\usepackage[T1]{fontenc}
-\usepackage{textcomp}
-\usepackage{tabularx,array}
-\usepackage{enumitem}
-\usepackage{longtable}
-\usepackage{fontspec}
-\usepackage{qrcode}
-\usepackage{hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Professional Newsletter Template
+% LaTeX Template
+% Version 1.0 (09/03/14)
+%
+% Created by:
+% Bob Kerstetter (https://www.tug.org/texshowcase/) and extensively modified by:
+% Vel (vel@latextemplates.com)
+% Further modified by Ryan Brown
+% 
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\documentclass[10pt]{article} % The default font size is 10pt; 11pt and 12pt are alternatives
 
-\graphicspath{ {./images/} }
-
-\pagestyle{empty}
-\setlength{\tabcolsep}{0em}
-
-\setmainfont{Times New Roman}
+\input{formatting.tex} % Include the document which specifies all packages and structural customizations for this template
 
 \begin{document}
 
-%--------------------------------------------------------------
-%   Top Page
-%--------------------------------------------------------------
-\noindent
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l @{}}
-    \begin{tabular}[t]{@{}l@{}}
-        % \includegraphics{logo}
-        \huge{\Delta \rho \Sigma}
-    \end{tabular}
-    &
-    \begin{tabular}[t]{@{}r@{}}
-        \large{Delta Rho Sigma}
-    \end{tabular}
-    \\
-    \hline
-\end{tabular*}
+%----------------------------------------------------------------------------------------
+%	HEADER IMAGE
+%----------------------------------------------------------------------------------------
+
+\begin{figure}[H]
+\centering\includegraphics[width=0.3\linewidth]{logo3.png}
+% \centering\includegraphics[width=0.3\linewidth]{logo.png}
+\end{figure}
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR - FIRST PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{.30\linewidth} % Mini page taking up 30% of the actual page
+\begin{mdframed}[style=sidebar,frametitle={}] % Sidebar box
+
+%-----------------------------------------------------------
+
+\hypertarget{contents}{\textbf{{\large What We're Up To}}} % \hypertarget provides a label to reference using \hyperlink{label}{link text}
+\begin{itemize}
+    \item Setting up our makerspace and study room
+    \item Recruiting new members we are looking at over ten potential members, 6 of whom are especially promising
+    \item Our application to be a 501c(3) nonprofit is in the hands of the IRS - expecting approval in February or March
+% \item \hyperlink{firstnews}{The first news headline!} % These link to their appropriate sections in the newsletter
+% \item \hyperlink{secondnews}{The second news headline}
+% \item \hyperlink{thirdnews}{The third news headline\ldots}
+% \item \hyperlink{descriptivebox}{A descriptive box!}
+% \item \hyperlink{quotation}{Customer quotation}
+\end{itemize}
+
+\centerline {\rule{.75\linewidth}{.25pt}} % Horizontal line
+
+%-----------------------------------------------------------
+
+\textbf{On Going Projects}
+
+\begin{itemize}
+\item Designing luxury furniture for a sponsor
+\item Christian running an anime and comic products store
+\item Andrew is running an artisan pen company
+\item Neil is running a patented knifemaking business
+\end{itemize}
+
+\centerline {\rule{.75\linewidth}{.25pt}} % Horizontal line
+
+%-----------------------------------------------------------
+
+\textbf{Needs}
+
+\begin{itemize}
+    \item Funds to cover legal expenses
+    \item Office essentials to stock the study room and makerspace (particularly whiteboards, chairs, and desks) 
+    \item Funds to have a more robust and involved recruitment process for our next recruiting season
+    \item Experienced entrepreneurs to volunteer as guest speakers
+\end{itemize}
 
 
+\end{mdframed}
 
-\end{document}
+%----------------------------------------------------------------------------------------
+%  CONTACT INFO
+%----------------------------------------------------------------------------------------
+\begin{minipage}[t]{0.95\linewidth}
+\textbf{Contact Information:}\\
+Jack Cooperman \\
+\href{mailto:cooperjd@rose-hulman.edu}{cooperjd@rose-hulman.edu}
+
+Ryan Brown \\
+\href{mailto:brownrl@rose-hulman.edu}{brownrl@rose-hulman.edu}
+
+\end{minipage}
+
+\end{minipage}\hfill % End the sidebar mini page 
+%
+%----------------------------------------------------------------------------------------
+%	MAIN BODY - FIRST PAGE
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{.66\linewidth} % Mini page taking up 66% of the actual page
+
+\heading{Startup Weekend}{6pt}
+
+Students from the 2026 ESCALATE class participated in Startup Weekend (Oct. 21-23). Startup Weekend is organized by Techstars, Rose Innovative Student Entrepreneurs (RISE), Delta Rho Sigma, and ESCALATE. The event gave students an opportunity to experience what it's like take an idea and start transforming it into a business. Students were able to speak with mentors and receive feedback to help shape their ideas.
+
+%-----------------------------------------------------------
+
+\heading{Looking Ahead}{6pt}
+
+\subheading{Recruiting}{4pt}
+We have started recruiting new members for next year. We're hoping to have enough new members to lease a second house. We are hosting regular events such as cookouts to attract new members, primarily targeting this year's ESCALTE class.
+
+\subheading{Starting a Speaker Series}{4pt}
+We’re looking to host speakers to help further the entrepreneurial education of our members. This series would cover topics such as:
+\begin{itemize}
+    \item Marketing
+    \item How to pitch
+    \item How to sell your product
+    \item Legal contracts
+    \item How to create and manage a team (employees)
+    \item Taxes/payroll/ accounting 
+    \item How to find investors
+    \item When, and if, to sell
+    \item Technical entrepreneurship (innovation)
+    \item Work-life balance 
+    \item Idea generation
+    \item Networking 
+    \item How to work with a business partner
+    \item Corporate entrepreneurship
+\end{itemize}
+
+\end{minipage} % End the main body - first page mini page
+
+
+\end{document} 
