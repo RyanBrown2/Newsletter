@@ -25,6 +25,7 @@
 \usepackage{booktabs} % Required for nice horizontal rules in tables
 \usepackage{wrapfig} % Required for in-line images
 \usepackage{float} % Required for forcing figures not to float with the [H] parameter
+\usepackage{multicol} % Required for making multi-column lists
 
 %------------------------------------------------
 % Fonts
@@ -61,7 +62,7 @@
 %----------------------------------------------------------------------------------------
 
 \textwidth = 7 in % Text width
-\textheight = 10 in % Text height
+\textheight = 10.5 in % Text height
 \oddsidemargin = -18pt % Left side margin on odd pages
 \evensidemargin = -18pt % Left side margin on even pages
 \topmargin = -36pt % Top margin
@@ -128,6 +129,16 @@
 }
 
 %----------------------------------------------------------------------------------------
+%	TITLE STYLE
+%----------------------------------------------------------------------------------------
+
+\newcommand{\customtitle}[2]{ % Define the \heading command
+\vspace{#2} % White space above the heading
+{\begin{center}\Huge\textbf{#1}\end{center}} % The heading style
+\vspace{#2} % White space below the heading
+}
+
+%----------------------------------------------------------------------------------------
 %	HEADING STYLE
 %----------------------------------------------------------------------------------------
 
@@ -150,3 +161,15 @@
 \end{flushleft}} % The subheading style
 \vspace{#2} % White space below the subheading
 }
+
+%----------------------------------------------------------------------------------------
+%	SUBHEADING STYLE
+%----------------------------------------------------------------------------------------
+\newcommand{\listheading}[2]{
+% \vspace{#2} % White space above the subheading
+{\begin{flushleft}
+    \textbf{#1}
+\end{flushleft}} % The subheading style
+\vspace{#2} % White space below the subheading
+}
+
