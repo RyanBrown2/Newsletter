@@ -1,9 +1,9 @@
 # Fdb version 3
-["lualatex"] 1667752658 "c:/Users/brownrl/Git/Newsletter/Newsletter.tex" "Newsletter.pdf" "Newsletter" 1667752661
+["lualatex"] 1667857869 "c:/Users/brownrl/Git/Newsletter/Newsletter.tex" "Newsletter.pdf" "Newsletter" 1667857974
   "C:/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1633720441 123152 bbe25a21921777571d1f80830ae46b68 ""
   "C:/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-names.luc" 1663594748 1254168 74c94f8b0806e5aa54201a21f023085e ""
-  "Newsletter.aux" 1667752661 764 0d3f3dbe0d4a02af88ea618cc33f7e40 "lualatex"
-  "Newsletter.out" 1667752660 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "Newsletter.aux" 1667857875 764 0d3f3dbe0d4a02af88ea618cc33f7e40 "lualatex"
+  "Newsletter.out" 1667857874 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   "Newsletter.tex" 1667750738 788 ec9c3901555e675b3097037db54e349e ""
   "c:/Users/brownrl/Git/Newsletter/Newsletter.tex" 1667750738 788 ec9c3901555e675b3097037db54e349e ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm" 1633462128 5184 4fd08a9613e75c1da82714d79cf8b4f1 ""
@@ -201,11 +201,11 @@
   "formatting.tex" 1667750911 7279 185ffbdb7f8221537a3771584e099f2a ""
   "images//housepic2.jpg" 1667752543 4404472 92505190b1f84e0fba7bf2e78069de1d ""
   "images//logo3.png" 1666805642 190842 16f85519eee45dcee8877396f0040b9f ""
-  "page1/page1.tex" 1667752470 3958 7fc152357e1736206c9557cc72809e92 ""
+  "page1/page1.tex" 1667857867 3959 d1c6bd25515405e74a5ea34ac6741667 ""
   "page1/sections/ContactInfo.tex" 1667752418 285 e05c1d52e46bfa961c19bde4c2e306e6 ""
   "page1/sections/FirstPageSidebar.tex" 1667752657 1765 3261c68034f70ad339a5e5d518f94629 ""
   (generated)
-  "Newsletter.out"
-  "Newsletter.pdf"
   "Newsletter.aux"
+  "Newsletter.out"
   "Newsletter.log"
+  "Newsletter.pdf"
